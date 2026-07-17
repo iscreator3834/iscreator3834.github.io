@@ -4,11 +4,17 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/estilo.css" />
+        <title>Listrada de filmes</title>
     </head>
 
     <body>
-        <h1>Lista de filmes de séries</h1>
-        <h2>Bem-vindo ao nosso site de <strong>Tempo de Filme</strong></h2>
+        <div class="container">
+
+            <head class="titulos-topo">
+                <h1>Lista de filmes de séries</h1>
+                <h2>Bem-vindo ao nosso site de <strong>Tempo de Filme</strong></h2>
+        </div>
+        </head>
 
         <p>Seja <em>bem-vindo</em> ao <b>Blog Séries e Filmes,</b>o seu novo ponto de encontro oficial com o universo do
             entretenimento!</p>
@@ -111,29 +117,37 @@
                 com deficiência visual, usuárias de leitores de tela, compreendam o conteúdo de imagens.</p>
         </del>
 
+        <fieldset class="caixa-contato">
+            <h3>Login</h3>
 
-        <h3>Login</h3>
 
+            <h3>Fale Conosco</h3>
 
-        <h3>Fale Conosco</h3>
+            <fieldset>
+                <legend><strong>Contato com Tempo de Filmes</strong></legend>
+                <form action="#" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
 
-        <fieldset>
-            <legend><strong>Contato com Tempo de Filmes</strong></legend>
-            <form action="#" method="POST">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="8" required></textarea>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="8" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </fieldset>
 
-                <button type="submit">Enviar</button>
-            </form>
         </fieldset>
 
         <small><a href="https://www.adorocinema.com/">Visite o Adoro cinema.</a></small>
+
+        <footer>
+            <small>
+                &copy; 2026 Isac - Todos os direitos reservados.
+            </small>
+        </footer>
 
 
     </body>
