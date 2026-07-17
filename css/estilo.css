@@ -55,7 +55,7 @@ footer {
     max-width: 500px;
     margin: 20px auto;    /* Centraliza o formulário dentro dos 80% do contêiner */
 }
-
+/*caixa de texto*/
 .caixa-contato label,
 .caixa-contato input,
 .caixa-contato textarea {
